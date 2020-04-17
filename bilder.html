@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ferienwohnung Lotte</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Custom CSS-->
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark justify-content-center">
+      <a class="navbar-brand" href="#">Ferienwohnung Lotte</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarNavAltMarkup"
+      >
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link active" href="bilder.html">Bilder</a>
+          <a class="nav-item nav-link" href="preise.html">Leistungen/Preise</a>
+
+          <a class="nav-item nav-link" href="kontakt.html">Kontakt</a>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-caption">
+            <h3>Lotte</h3>
+            <p>Blick von der Kapelle</p>
+          </div>
+          <img
+            src="altobi_lotte.jpg"
+            class="card-img"
+            alt="dog looking over the Neckartal"
+          />
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <h3>Altoberndorf</h3>
+            <p>Sonnenblumenfelder</p>
+          </div>
+          <img
+            src="altobi_sonnenblumen.jpg"
+            class="card-img"
+            alt="Sunflowers"
+          />
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <h3>Feldweg</h3>
+            <p>Blick Richtung Sonnenhalde/Untere Boller Halde</p>
+          </div>
+          <img src="altobi_weg.jpg" class="card-img" alt="Feldweg" />
+        </div>
+      </div>
+
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="card mb-3" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-4 inline-block">
+          <img
+            src="altobi_lotte.jpg"
+            class="card-img"
+            alt="dog looking over the Neckartal"
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Schlafzimmer</h5>
+            <p class="card-text">
+              Wachhund Lotte wacht uber ganz Altoberndorf, damit alle gut und
+              sicher im Schlafzimmer schlafen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Badezimmer</h5>
+            <p class="card-text">
+              Hier ist ein wundersch&ouml;nes Badezimmer mit frischen
+              Sonenblumen.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="altobi_sonnenblumen.jpg"
+            class="card-img"
+            alt="Sunflowers"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-4 inline-block justify-content-end">
+          <img src="altobi_weg.jpg" class="card-img" alt="Feldweg" />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">K&uuml;che/Wohnzimmer</h5>
+            <p class="card-text">Hier ist der Weg in die K&uuml;che.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+    <footer class="footer mt-auto py-3 fixed-bottom">
+      <div class="text justify-content-center">Altoberndorf 2020</div>
+    </footer>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

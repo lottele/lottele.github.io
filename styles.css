@@ -1,0 +1,181 @@
+/* ===============================
+   Author: {Eva}
+   Date:   {05.04.2020}
+   
+   
+   Colour Palette:
+   ---------------
+   Light Cream:		#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b3daff;
+  color: #2d2d86;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+#main {
+  margin-bottom: 4rem; /* Footer height */
+}
+
+.navbar {
+  background-color: #2d2d86;
+  font-family: "Indie Flower";
+}
+
+.navbar-brand .nav-item {
+  font-family: "Indie Flower";
+  letter-spacing: 0.1rem;
+}
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin: 0;
+  background-size: cover;
+  background-image: url("panorama.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  color: #2d2d86;
+  height: 500px;
+}
+
+.jumbotron h1 {
+  font-weight: 600;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  color: #2d2d86;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 4rem;
+
+  color: rgba(0, 0, 0, 0.76);
+  text-align: center;
+}
+
+.jumbotron p {
+  color: #2d2d86;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+#container {
+  margin: 2rem 2rem;
+  padding: 1rem 1rem;
+}
+
+.carousel-caption {
+  color: #2d2d86;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.card {
+  margin: 2rem;
+  background-color: #e6f3ff;
+}
+.card-title .card-text {
+  background: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.76);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Indie Flower";
+  font-weight: bolder;
+}
+
+p {
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Lato", sans-serif;
+}
+
+form label {
+  display: block;
+  text-transform: none;
+  font-size: 22px;
+  font-weight: bold;
+  background: #b3daff;
+  color: #2d2d86;
+  font-family: "Indie Flower";
+}
+
+form input {
+  display: block;
+  border: none;
+  font-size: 22px;
+  font-family: "helvetica";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+form input[type="submit"] {
+  background: #b3daff;
+  color: white;
+  cursor: pointer;
+  width: 300px;
+  font-family: "Indie Flower";
+}
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  font-family: "Indie Flower", cursive;
+  background-color: #2d2d86;
+  color: white;
+}
+.text {
+  text-align: center;
+  font-family: "Indie Flower";
+  letter-spacing: 1.5px;
+}
+/* Header */
+
+/* Hero */
+
+/* The Whole Story */
+
+/* News & Events */
+
+/* Footer */
+
+footer {
+  background-color: #2d2d86;
+  color: white;
+}
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
